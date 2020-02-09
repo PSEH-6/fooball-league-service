@@ -17,6 +17,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testCompile 'org.springframework:spring-test'
 	compile 'org.springframework:spring-core'
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.0'
 	compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.10.0'

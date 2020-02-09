@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 @Service
-public class LeaguesRepository {
+public class LeaguesRepository {LeaguesRepository
 
     private final RestTemplate restTemplate = new RestTemplate();
 

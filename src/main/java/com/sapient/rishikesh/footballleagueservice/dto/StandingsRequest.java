@@ -17,4 +17,10 @@ public class StandingsRequest {
     public String getTeam_name() {
         return team_name;
     }
+
+    public StandingsRequest(String country_name, String league_name, String team_name) {
+        this.country_name = country_name;
+        this.league_name = league_name;
+        this.team_name = team_name;
+    }
 }
